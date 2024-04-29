@@ -1,0 +1,14 @@
+.feature {
+    text-align: center;
+
+    &__icon {
+        display: inline;
+    }
+
+    &__caption {
+        display: flex;
+        flex-direction: column;
+        gap: 1.6rem;
+        margin-top: 4rem;
+    }
+}

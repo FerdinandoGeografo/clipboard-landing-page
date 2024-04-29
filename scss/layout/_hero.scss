@@ -1,0 +1,23 @@
+.hero {
+    padding: 15rem 0 12rem 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 11rem;
+
+    @include respond(phone) {
+        padding: 18.6rem 0 9.5rem 0;
+        gap: 6.4rem;
+    }
+
+    &__img {
+        text-align: center;
+        max-width: 80rem;
+        width: 100%;
+
+        @include respond(phone) {
+            width: 110%;
+        }
+    }
+}

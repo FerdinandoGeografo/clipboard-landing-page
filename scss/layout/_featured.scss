@@ -1,0 +1,28 @@
+.featured {
+    padding: 0 16.5rem 15rem 16.5rem;
+
+    @include respond(tab-land) {
+        padding: 0 1.25rem 15rem 1.25rem;
+    }
+
+    @include respond(phone) {
+        padding: 0 0 17rem 0;
+    }
+
+    &__logos {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 15rem;
+
+        @include respond(tab-port) {
+            flex-direction: column;
+            margin-bottom: 17rem;
+            height: 50rem;
+        }
+
+        @include respond(phone) {
+            height: 43.9rem;
+        }
+    }
+}
