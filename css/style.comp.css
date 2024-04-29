@@ -68,26 +68,26 @@ body {
 .paragraph {
   color: var(--grey-200);
   line-height: 3rem; }
+  @media only screen and (max-width: 37.5em) {
+    .paragraph {
+      line-height: 2.6rem; } }
   .paragraph--primary {
     font-size: 2rem;
     letter-spacing: 0.15px; }
     @media only screen and (max-width: 37.5em) {
       .paragraph--primary {
         font-size: 1.6rem;
-        letter-spacing: 0.12px;
-        line-height: 2.6rem; } }
+        letter-spacing: 0.12px; } }
   .paragraph--secondary {
     font-size: 1.8rem;
     letter-spacing: 0.14px; }
     @media only screen and (max-width: 37.5em) {
       .paragraph--secondary {
         font-size: 1.6rem;
-        letter-spacing: 0.12px;
-        line-height: 2.6rem; } }
+        letter-spacing: 0.12px; } }
   .paragraph--tertiary {
     font-size: 1.6rem;
-    letter-spacing: 0.12px;
-    line-height: 2.6rem; }
+    letter-spacing: 0.12px; }
 
 .container {
   max-width: 144rem;
@@ -194,7 +194,7 @@ body {
         margin-bottom: 6.4rem; } }
 
 .hero {
-  padding: 15rem 0 12rem 0;
+  padding: 14.75rem 0 10.8rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -205,7 +205,7 @@ body {
       gap: 6.4rem; } }
   .hero__img {
     text-align: center;
-    max-width: 80rem;
+    max-width: 90.5rem;
     width: 100%; }
     @media only screen and (max-width: 37.5em) {
       .hero__img {
@@ -229,8 +229,13 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-self: center;
+  align-self: start;
+  margin-top: 6.8rem;
   gap: 5.6rem; }
+  @media only screen and (max-width: 65.5em) {
+    .how__steps {
+      align-self: center;
+      margin-top: 0; } }
   @media only screen and (max-width: 37.5em) {
     .how__steps {
       gap: 4.8rem; } }
