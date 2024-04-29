@@ -24,12 +24,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![https://clipboard-fg.netlify.app/](./screenshot.jpg)
 
 ### Links
 
 - Solution URL: [https://github.com/FerdinandoGeografo/clipboard-landing-page](https://github.com/FerdinandoGeografo/clipboard-landing-page)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://clipboard-fg.netlify.app/](https://clipboard-fg.netlify.app/)
 
 ## My process
 
